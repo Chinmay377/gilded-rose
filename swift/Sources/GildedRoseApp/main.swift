@@ -1,6 +1,5 @@
 import GildedRose
 
-//let app = GildedRose(items: items);
 //let newItems = InventoryFactoryJSONResponse().getAllItems()
 let newItems = InventoryFactoryHardCoded().getAllItems()
 let app = GildedRose(items: newItems);
